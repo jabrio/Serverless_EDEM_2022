@@ -1,0 +1,29 @@
+{
+    "fields": [
+    {
+      "mode": "NULLABLE",
+      "name": "device_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "timeStamp",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "processingTime",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "temperature",
+      "type": "FLOAT"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "humidity",
+      "type": "NUMERIC"
+    }
+    ]
+}
