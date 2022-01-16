@@ -26,11 +26,15 @@ gcloud services enable dataflow.googleapis.com
 gcloud services enable cloudiot.googleapis.com
 gcloud services enable cloudbuild.googleapis.com
 ```
-
+- Create Python environment
+```
+virtualenv -p python3 <ENVIRONTMENT_NAME>
+source <ENVIRONMENT_NAME>/bin/activate
+```
 - Install python dependencies by running the followinw command:
 
 ```
-pip3 install -U -r setup_dependencies.txt
+pip install -U -r setup_dependencies.txt
 ```
 
 ## PubSub
