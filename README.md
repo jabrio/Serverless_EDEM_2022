@@ -30,7 +30,7 @@ gcloud services enable cloudbuild.googleapis.com
 - Install python dependencies by running the followinw command:
 
 ```
-pip install -U -r setup_dependencies.txt
+pip3 install -U -r setup_dependencies.txt
 ```
 
 ## PubSub
