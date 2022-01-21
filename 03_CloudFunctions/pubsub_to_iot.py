@@ -39,4 +39,4 @@ def pubsub_to_iot(event, context):
         '''https://cloud.google.com/iot/docs/how-tos/config/configuring-devices#iot-core-get-config-python'''
 
         #Update device configuration
-        '''https://cloud.google.com/iot/docs/how-tos/commands#iot-core-send-command-python'''
+        '''https://cloud.google.com/iot/docs/how-tos/config/configuring-devices#iot-core-update-config-python'''
