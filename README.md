@@ -83,7 +83,7 @@ gcloud builds submit --tag 'gcr.io/<YOUR_PROJECT_ID>/<YOUR_FOLDER_NAME>/<YOUR_IM
 - [Create Dataflow Flex Template](https://cloud.google.com/dataflow/docs/guides/templates/using-flex-templates#creating_a_flex_template) from Docker image:
 
 ```
-gcloud dataflow flex-template build "gs://<YOUR_BUCKET_NAME/<YOUR_TEMPLATE_NAME>.json" \
+gcloud dataflow flex-template build "gs://<YOUR_BUCKET_NAME>/<YOUR_TEMPLATE_NAME>.json" \
   --image "gcr.io/<YOUR_PROJECT_ID>/<YOUR_FOLDER_NAME>/<YOUR_IMAGE_NAME>:latest" \
   --sdk-language "PYTHON" 
 ```
