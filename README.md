@@ -132,3 +132,7 @@ python edemDeviceData.py \
 - when finished, Click **deploy**.
 - If an aggregate temperature by minute is out-of-range, **a command will be thrown to the device and its config will be updated**. You can check that by going to *config and state* tab in IoT device page.
 - Useful information: [IoT Core code samples](https://cloud.google.com/iot/docs/samples)
+
+# Solution
+- [IoT Real-time Serverless architecture Part 01](https://www.youtube.com/watch?v=gXngs3pTYJ8)
+- [IoT Real-time Serverless architecture Part 02](https://www.youtube.com/watch?v=mh8kNW1OOAU)
